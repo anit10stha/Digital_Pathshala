@@ -20,11 +20,8 @@
     display: flex;
     font-size: 40px;
     font-weight: 1000;
-    color: rgb(40, 185, 40);
+    color: rgb(17, 160, 17);
     margin-left: 40px;
-}
-.logo1{
-    padding-top: 5px;
 }
 
 .logo2{
@@ -32,7 +29,7 @@
 }
 
 .content{
-    margin-left: 450px;
+    margin-left: 500px;
 }
 
 .content a{
@@ -52,8 +49,7 @@
 .btn{
     margin-left: 80px;
     height: 100px;
-    width: 300px;
-    /* padding: 26px 100px; */
+    width: 250px;
     font-size: 1.6rem;
     border: none;
     background-color: rgb(16, 194, 16);
@@ -71,7 +67,4 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 890px;
-    opacity: 50%;
-
-    /* filter:contrast(-50); */
 }
