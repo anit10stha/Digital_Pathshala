@@ -2,16 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+   
 }
 
 .navbar{
     display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
     align-items: center;
-    padding: 20px;
-    background-color: aqua;
+    justify-content: space-evenly;
+    cursor: pointer;
 }
 
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgb(40, 185, 40);
+    margin-left: 40px;
+}
+.logo1{
+    padding-top: 5px;
+}
+
+.logo2{
+    padding-left: 30px;
+}
+
+.content{
+    margin-left: 450px;
+}
+
+.content a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.content a:hover{
+    color: rgb(11, 156, 11)
+}
+
+#active{
+    color: rgb(14, 199, 14);
+}
+
+.btn{
+    margin-left: 80px;
+    height: 100px;
+    width: 300px;
+    /* padding: 26px 100px; */
+    font-size: 1.6rem;
+    border: none;
+    background-color: rgb(16, 194, 16);
+    color: white;
+    cursor: pointer;
+} 
+
+.btn:hover{
+    background-color: rgb(15, 189, 189);
+}
+/* navbar ends */
+
+.background{
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 890px;
+    opacity: 50%;
+
+    /* filter:contrast(-50); */
+}
