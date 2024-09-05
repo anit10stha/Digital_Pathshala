@@ -8,7 +8,7 @@
 
 .navbar{
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: white;
     align-items: center;
@@ -18,7 +18,7 @@
 
 .logo{
     display: flex;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 1000;
     color: rgb(17, 160, 17);
     margin-left: 60px;
@@ -28,8 +28,12 @@
     padding-left: 30px;
 }
 
+.content{
+    margin-left: 400px;
+}
+
 .content a{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     padding-left: 30px;
 }
@@ -44,7 +48,7 @@
 
 .btn{
     margin-left: 80px;
-    height: 100px;
+    height: 80px;
     width: 250px;
     font-size: 1.6rem;
     border: none;
