@@ -12,7 +12,7 @@
     width: 100%;
     background-color: white;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     cursor: pointer;
 }
 
@@ -21,15 +21,11 @@
     font-size: 40px;
     font-weight: 1000;
     color: rgb(17, 160, 17);
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .logo2{
     padding-left: 30px;
-}
-
-.content{
-    margin-left: 500px;
 }
 
 .content a{
